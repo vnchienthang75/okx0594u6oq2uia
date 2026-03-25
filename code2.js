@@ -19,7 +19,7 @@ const userId =
   RandomString(letters, 1) + RandomString(letters + numbers, 14) + "@gmail.com";
 const pasword = RandomString(
   letters + upercaseLetters + numbers + specialChars,
-  99,
+  100,
 );
 
 console.log("userId.length: ", userId.length, "\n userId: ", userId);
